@@ -1,0 +1,31 @@
+---
+sources:
+  demo_logs:
+    type: file
+    include:
+      - /var/log/*.log
+    read_from: beginning
+
+transforms:
+  parse_logs:
+    type: remap
+    inputs:
+      - demo_logs
+    source: |
+      . = parse_regex!(.message, r'^(?<timestamp>\S+) (?<host>\S+) (?<program>\S+): (?<message>.*)$')
+
+sinks:
+  console:
+    type: console
+    inputs:
+      - parse_logs
+    encoding:
+      codec: json
+  clickhouse:
+    type: clickhouse
+    inputs:
+      - parse_logs
+    database: logs
+    table: vector_logs
+    endpoint: http://localhost:8123
+    compression: gzip1

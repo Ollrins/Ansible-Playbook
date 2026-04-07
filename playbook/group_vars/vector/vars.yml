@@ -1,0 +1,4 @@
+---
+vector_version: "0.21.0"
+vector_install_dir: "/opt/vector"
+vector_config_dir: "/etc/vector"
