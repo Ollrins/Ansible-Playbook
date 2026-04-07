@@ -39,16 +39,11 @@
 - **Vector** (версия 0.21.0) - инструмент для сбора логов
 
 #### Структура playbook
-playbook/
-├── site.yml # Главный playbook
-├── inventory/
-│ └── prod.yml # Инвентарь для production
-├── group_vars/
-│ └── clickhouse/
-│ └── vars.yml # Переменные для Clickhouse
-├── templates/
-│ └── vector.yml.j2 # Jinja2 шаблон конфигурации Vector
-└── README.md # Документация
+<p align="center">
+  <img src="screenshots/S8.png" alt="Структура playbook" width="900"/>
+  <br>
+  <em>Структура playbook</em>
+</p>
 
 
 #### Параметры
