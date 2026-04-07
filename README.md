@@ -24,3 +24,6 @@
   <br>
   <em>playbook с флагом --diff, playbook идемпотентен</em>
 </p>
+
+<br>
+[Исходный код](https://github.com/Ollrins/Ansible-Playbook/tree/main/playbook "Ссылка на GitHub")
