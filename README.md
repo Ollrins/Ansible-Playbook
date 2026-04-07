@@ -20,7 +20,7 @@
 #### Задание 7
 
 <p align="center">
-  <img src="screenshots/S7.png" alt="playbook с флагом --diff, playbook идемпотентен" width="400"/>
+  <img src="screenshots/S7.png" alt="playbook с флагом --diff, playbook идемпотентен" width="900"/>
   <br>
   <em>playbook с флагом --diff, playbook идемпотентен</em>
 </p>
@@ -40,7 +40,7 @@
 
 #### Структура playbook
 <p align="center">
-  <img src="screenshots/S8.png" alt="Структура playbook" width="900"/>
+  <img src="screenshots/S8.png" alt="Структура playbook" width="500"/>
   <br>
   <em>Структура playbook</em>
 </p>
