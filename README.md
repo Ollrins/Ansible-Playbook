@@ -6,7 +6,7 @@
 <p align="center">
   <img src="screenshots/S5.png" alt="ansible-lint site.yml и playbook с флагом --check" width="900"/>
   <br>
-  <em>ansible-lint site.yml и playbook с флагом --chec</em>
+  <em>ansible-lint site.yml и playbook с флагом --check</em>
 </p>
 
 #### Задание 6
